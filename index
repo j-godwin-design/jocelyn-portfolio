@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+  meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    Jocelyn Godwin
+  </title>
+   <link rel="stylesheet" href="style.css" />
+ </head>
+
+ <body>
+  <header class="navbar">
+    <div class="logo">JG</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle">☰</div>
+  </header>
+
+  <section id="hero" class="block sage">
+    <h1>Jocelyn's Portfolio</h1>
+    <p>Web design ✦ Software Dev  </p>
+     <a href="resume.pdf" class="btn" target="_blank">Resume</a>
+  </section>
+
+  <section id="about" class="block cream">
+    <h2>About Me</h2>
+    <p>
+      Hi, I’m Jocelyn Godwin. I am looking for work to help people create websites.
+      I am a college student looking to gain experience and use my experience to help.
+    </p>
+  </section>
+
+  <section id="projects" class="block dark">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Project 1</h3>
+        <p>Work will appear soon.</p>
+  </section>
+
+  <section id="contact" class="block gold">
+    <h2>Contact</h2>
+    <p>Email: jsgodwindesigns@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>© 2025 JG Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
